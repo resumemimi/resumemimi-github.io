@@ -1,0 +1,208 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+body{ 
+    background-color: antiquewhite;
+}
+
+.banner{
+	position: relative;
+	width: 75%;
+	margin: 0 auto;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.table{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.table td,.table th{
+	padding: 12px 15px;
+	border: 1px solid #ddd;
+	font-size: 16px;
+}
+
+.table th{
+	background-color: gray;
+	color: black;
+}
+
+.table tbody tr:nth-child(even){
+	background-color: white;
+}
+
+
+.list{
+	column-width: 400px;
+	column-gap: 36px;
+	font-family: 'Limelight', cursive;
+	font-size: 15pt;
+	color: grey;
+}
+
+.education{
+	height: 900px;
+	object-fit: cover;
+}
+
+.wrapper{
+	margin: 0 auto;
+	width: 600px;
+}
+
+.groove{
+	border-width:;
+	margin: auto;
+	width: 60%;
+	padding: 10px;
+	color: black;
+	font-family: "Courier New";
+}
+    
+
+.responsive{
+	width: 100%;
+	max-width: 400%;
+	height: auto;
+}
+	
+
+.heading{
+	color: black;
+	position: absolute;
+	top: 35%;
+	width: 90%;
+	text-align: center;
+	font-size: 3vw;
+	font-family: 'Limelight', cursive;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.gallery{
+	border: 1px solid white;
+}
+
+.gallery img{
+	width: 100%;
+	height: auto;
+}
+
+.des{
+	padding: 18px;
+	text-align: center;
+}
+
+.certificate{
+	padding: 0 6px;
+	float: left;
+	width: 25%;
+}
+
+@media only screen and (max-width: 700px){
+	.certificate{
+		width: 50%;
+		margin: 6px 0;
+	}
+}
+	
+@media only screen and (max-width: 700px){
+	.certificate{
+		wudth: 100%;
+	}
+}
+
+.box{
+	max-width:1000px;
+	background-color: white;
+	margin: auto;
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.footer{
+	background-color: antiquewhite;
+	padding: 70px 0;
+}
+
+.footer-col{
+	width: 25%;
+	padding: 0 15px;
+}
+
+.footer-col h4{
+	font-size: 30px;
+	color: black;
+	text-transform: capitalize;
+	margin-bottom: 25px;
+	font-family: 'Limelight', cursive;
+	font-weight: 700;
+	position: relative;
+}
+
+.footer-col a:hover{	
+     color: #ffffff;
+	 padding-left: 8px;
+}
+
+.footer-col .social-links a{
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	background-color: antiquewhite;
+	margin-right:0 10px 10px 0;
+	text-align: center;
+	line-height: 50px;
+	border-radius: 50%;
+	color: black;
+	transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover{
+	color: grey;
+	background-color: antiquewhite;
+}
+
+@media(max-width: 767px){
+	.footer-col{
+	width: 50%;
+	margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+	
+	
+
